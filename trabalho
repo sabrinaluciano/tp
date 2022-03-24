@@ -1,0 +1,31 @@
+programa {
+	funcao inicio() {
+		real Mbiologia[3][5], Mmatematica[3][5], Mhistoria[3][5], Martes[3][5], Mportugues[3][5]
+		cadeia[3][5]
+		inteiro Mindice, Mturma
+		
+		Mturma=0
+		Mindice=0
+		
+		   para (Mturma=0; Mturma<=2; Mturma++)
+		  {
+		      para (Mindice=0; Mindice<5; Mindice++)
+		  {
+		      escreva("digite um nome:")
+		      leia(Mnome[Mturma][Mindice])
+		      escreva("digite a nota de biologia:")
+		      leia(Mbiologia[Mturma][Mindice])
+		      escreva("digite a nota de matematica:")
+		      leia(Mmatematica[Mturma][Mindice])
+		      escreva("digite a nota de hidtoria:")
+		      leia(Mhistoria[Mturma][Mindice])
+		      escreva("digite a nota de artes:")
+		      leia(Martes[Mturma][Mindice])
+		      escreva("digite a nota de portugues:")
+		      leia(Mportugues[Mturma][Mindice])
+		  }    
+		  }      
+		   )
+		
+	}
+}
