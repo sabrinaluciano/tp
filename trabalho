@@ -38,31 +38,31 @@ programa {
 		        
 		                para(Mindice=0;Mindice<=1;Mindice++)
 	                    {
-	                       escreva("\nAluno:", Mnome[Mturma][Mindice])
+	                       escreva("\nAluno: ", Mnome[Mturma][Mindice])
 	                       se (Mbiologia[Mturma][Mindice]>60)
-	                       escreva("aprovado em biologia")
+	                       escreva("\naprovado em biologia")
 	                       senao
-	                       escreva("reprovado em biologia")
+	                       escreva("\nreprovado em biologia")
 	                   
 	                       se (Mmatematica[Mturma][Mindice]>60)
-	                       escreva("aprovado em matematica")
+	                       escreva("\naprovado em matematica")
 	                       senao
-	                       escreva("reprovado em matematica")
+	                       escreva("\nreprovado em matematica")
 	                   
 	                       se (Mhistoria[Mturma][Mindice]>60)
-	                       escreva("aprovado em historia")
+	                       escreva("\naprovado em historia")
 	                       senao
-	                       escreva("reprovado em historia")
+	                       escreva("\nreprovado em historia")
 	                  
 	                       se (Martes[Mturma][Mindice]>60)
-	                       escreva("aprovado em artes")
+	                       escreva("\naprovado em artes")
 	                       senao
-	                       escreva("reprovado em artes")
+	                       escreva("\nreprovado em artes")
 	                   
 	                       se(Mportugues[Mturma][Mindice]>60)    
-	                       escreva("aprovado em portugues")
+	                       escreva("\naprovado em portugues")
 	                       senao
-	                       escreva("reprovado em portugues")
+	                       escreva("\nreprovado em portugues")
 	                    }
 		             }
 	
