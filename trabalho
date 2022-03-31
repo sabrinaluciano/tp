@@ -3,7 +3,7 @@ programa {
 	    
 		real Mbiologia[3][5], Mmatematica[3][5], Mhistoria[3][5], Martes[3][5], Mportugues[3][5]
 		
-		cadeia[3][5]
+		cadeia Mnome[3][5]
 		inteiro Mindice, Mturma
 		
 		Mturma=0
@@ -12,29 +12,61 @@ programa {
 		   para (Mturma=0; Mturma<=2; Mturma++)
 		 {
 		      para (Mindice=0; Mindice<5; Mindice++)
-		   {
+		     {
 		      escreva("digite um nome:")
 		      leia(Mnome[Mturma][Mindice])
+		      
 		      escreva("digite a nota de biologia: ")
 		      leia(Mbiologia[Mturma][Mindice])
+		      
 		      escreva("digite a nota de matematica: ")
 		      leia(Mmatematica[Mturma][Mindice])
+		      
 		      escreva("digite a nota de historia: ")
 		      leia(Mhistoria[Mturma][Mindice])
+		      
 		      escreva("digite a nota de artes: ")
 		      leia(Martes[Mturma][Mindice])
+		      
 		      escreva("digite a nota de portugues: ")
 		      leia(Mportugues[Mturma][Mindice])
-		   }
+		     }
 		       para (Mturma=0; Mturma<=1; Mturma++)
-		        {
-		          escreva("\nAlunos da turma: ", Mturma)
+		             {
 		        
-		          para(Mindice=0;Mindice<=1;Mindice++)
-	              {	  
-	                escreva("\nAluno:", Mnome[Mturma][Mindice])
-	                se (Mbiologia[Mindice]>60)
-	                   escreva("aprovado em biologia")
-	                   senao
-	                   escreva("reprovado em biologia")
-	                se 
+		                escreva("\nAlunos da turma: ", Mturma)
+		        
+		                para(Mindice=0;Mindice<=1;Mindice++)
+	                    {
+	                       escreva("\nAluno:", Mnome[Mturma][Mindice])
+	                       se (Mbiologia[Mturma][Mindice]>60)
+	                       escreva("aprovado em biologia")
+	                       senao
+	                       escreva("reprovado em biologia")
+	                   
+	                       se (Mmatematica[Mturma][Mindice]>60)
+	                       escreva("aprovado em matematica")
+	                       senao
+	                       escreva("reprovado em matematica")
+	                   
+	                       se (Mhistoria[Mturma][Mindice]>60)
+	                       escreva("aprovado em historia")
+	                       senao
+	                       escreva("reprovado em historia")
+	                  
+	                       se (Martes[Mturma][Mindice]>60)
+	                       escreva("aprovado em artes")
+	                       senao
+	                       escreva("reprovado em artes")
+	                   
+	                       se(Mportugues[Mturma][Mindice]>60)    
+	                       escreva("aprovado em portugues")
+	                       senao
+	                       escreva("reprovado em portugues")
+	                    }
+		             }
+	
+		 }
+     	        
+	   }
+	}	 
