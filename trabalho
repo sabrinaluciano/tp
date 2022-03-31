@@ -16,27 +16,27 @@ programa {
 		      escreva("digite um nome:")
 		      leia(Mnome[Mturma][Mindice])
 		      
-		      escreva("digite a nota de biologia: ")
+		      escreva("digite uma nota de biologia: ")
 		      leia(Mbiologia[Mturma][Mindice])
 		      
-		      escreva("digite a nota de matematica: ")
+		      escreva("digite uma nota de matematica: ")
 		      leia(Mmatematica[Mturma][Mindice])
 		      
-		      escreva("digite a nota de historia: ")
+		      escreva("digite uma nota de historia: ")
 		      leia(Mhistoria[Mturma][Mindice])
 		      
-		      escreva("digite a nota de artes: ")
+		      escreva("digite uma nota de artes: ")
 		      leia(Martes[Mturma][Mindice])
 		      
-		      escreva("digite a nota de portugues: ")
+		      escreva("digite uma nota de portugues: ")
 		      leia(Mportugues[Mturma][Mindice])
 		     }
-		       para (Mturma=0; Mturma<=1; Mturma++)
+		       para (Mturma=0; Mturma<=2; Mturma++)
 		             {
 		        
 		                escreva("\nAlunos da turma: ", Mturma)
 		        
-		                para(Mindice=0;Mindice<=1;Mindice++)
+		                para(Mindice=0;Mindice<5;Mindice++)
 	                    {
 	                       escreva("\nAluno: ", Mnome[Mturma][Mindice])
 	                       se (Mbiologia[Mturma][Mindice]>60)
