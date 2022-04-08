@@ -11,7 +11,7 @@ programa {
 		
 		   para (Mturma=0; Mturma<=2; Mturma++)
 		 {
-		      para (Mindice=0; Mindice<5; Mindice++)
+		      para (Mindice=0; Mindice<4; Mindice++)
 		     {
 		      escreva("digite um nome:")
 		      leia(Mnome[Mturma][Mindice])
@@ -31,12 +31,13 @@ programa {
 		      escreva("digite uma nota de portugues: ")
 		      leia(Mportugues[Mturma][Mindice])
 		     }
-		       para (Mturma=0; Mturma<=2; Mturma++)
-		             {
-		        
+		      
+		  }    
+		      para (Mturma=0; Mturma<=2; Mturma++)
+	              {  
 		                escreva("\nAlunos da turma: ", Mturma)
 		        
-		                para(Mindice=0;Mindice<5;Mindice++)
+		                para(Mindice=0;Mindice<4;Mindice++)
 	                    {
 	                       escreva("\nAluno: ", Mnome[Mturma][Mindice])
 	                       se (Mbiologia[Mturma][Mindice]>60)
@@ -64,9 +65,8 @@ programa {
 	                       senao
 	                       escreva("\nreprovado em portugues")
 	                    }
-		             }
+		       }     } 
 	
 		 }
      	        
-	   }
-	}	 
+	   
